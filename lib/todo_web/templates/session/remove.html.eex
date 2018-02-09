@@ -1,0 +1,6 @@
+<h2>Sign out</h2>
+<%= form_for @conn, session_path(@conn, :delete), [method: :delete, as: :user], fn _ -> %>
+    <div class="form-group">
+        <%= submit "Logout", class: "btn btn-primary" %>
+    </div>
+<% end %>
