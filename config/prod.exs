@@ -15,7 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :todo, TodoWeb.Endpoint,
   load_from_system_env: true,
-  url: [scheme: "https", host: "mysterious-meadow-6277.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "intense-falls-96227.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEY_BASE")
