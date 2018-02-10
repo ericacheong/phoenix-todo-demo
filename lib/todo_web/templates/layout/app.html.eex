@@ -28,7 +28,7 @@
             <% end %>
           </ul>
         </nav>
-        <span class="logo"><a href="/">TODOD</a></span>
+        <span class="brand"><a href="/">TODOD</a></span>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
