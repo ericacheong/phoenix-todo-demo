@@ -1,0 +1,14 @@
+.brand {
+    font-size: 45px;
+    background-image: none;
+    background-size: 0;
+    height: 50px;
+    width: 200px;
+    color: orange;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.brand a {
+    color: orange;
+    text-decoration: none;
+}
